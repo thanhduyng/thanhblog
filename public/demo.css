@@ -1,0 +1,16 @@
+.title-h2 {
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 3.5em;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Niramit", sans-serif;
+}
+
+.section-image img {
+    filter: brightness(70%);
+}

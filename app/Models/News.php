@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class News extends Model
+{
+    protected $table = 'news';
+
+    public function imageProduct() {
+    	return $this->hasMany('App\Models\ImageNew', 'id_new', 'id');
+    }
+}
